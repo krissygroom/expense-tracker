@@ -2,15 +2,16 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
-  margin: 1.1rem 0;
   font-size: 1.6rem;
   font-weight: 500;
-  border-radius: 11px;
   background-color: #323232;
   color: rgba(255, 255, 255, 0.9);
   display: flex;
   overflow: hidden;
+}
+
+.expense-item:not(:last-child) {
+  margin-bottom: 1.25rem;
 }
 
 .expense-item__description {
@@ -34,10 +35,11 @@
 .expense-item__price {
   min-width: 11rem;
   padding: 1.5rem 0;
+  font-weight: 600;
   text-align: center;
   color: #fff;
   background-color: #22a2f2;
-  margin: 1rem;
+  margin-right: 1.25rem;
   border-radius: 10px;
   display: flex;
   align-items: center;
