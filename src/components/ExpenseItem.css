@@ -5,22 +5,12 @@
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
   margin: 1.1rem 0;
   font-size: 1.6rem;
+  font-weight: 500;
   border-radius: 11px;
   background-color: #323232;
-  color: rgba(255, 255, 255, 0.8);
+  color: rgba(255, 255, 255, 0.9);
   display: flex;
   overflow: hidden;
-}
-
-.expense-item__date {
-  color: inherit;
-  min-width: 11rem;
-  background-color: #3a3a3a;
-  align-self: stretch;
-
-  display: flex;
-  align-items: center;
-  justify-content: center;
 }
 
 .expense-item__description {
@@ -34,21 +24,20 @@
 
 .expense-item h2 {
   color: #3a3a3a;
-  font-size: 1.2rem;
+  font-size: 2rem;
+  font-weight: 500;
   flex: 1;
-  margin: 1.5rem;
-  color: #fff;
-  font-weight: bold;
+  margin-left: 2.5rem;
+  color: currentColor;
 }
 
 .expense-item__price {
-  min-width: 12rem;
-  min-height: 4rem;
+  min-width: 11rem;
+  padding: 1.5rem 0;
   text-align: center;
-  font-size: 1.2rem;
   color: #fff;
   background-color: #22a2f2;
-  margin-right: 1rem;
+  margin: 1rem;
   border-radius: 10px;
   display: flex;
   align-items: center;
@@ -61,14 +50,5 @@
     align-items: center;
     justify-content: flex-start;
     flex: 1;
-  }
-
-  .expense-item__description h2 {
-    font-size: 1.6rem;
-  }
-
-  .expense-item__price {
-    font-size: 1.6rem;
-    padding: 0.5rem 1.5rem;
   }
 }
