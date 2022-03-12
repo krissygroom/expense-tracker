@@ -26,7 +26,7 @@ function App() {
 
   return (
     <div>
-      <h2 className="title">Expense Tracker - testing</h2>
+      <h2 className="title">Expense Tracker</h2>
       {expenses.map((expense) => (
         <ExpenseItem
           date={expense.date}
