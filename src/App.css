@@ -1,12 +1,13 @@
 .title {
   color: #29b9f2;
   text-align: center;
-  font-size: 3.2rem;
+  font-size: 3.8rem;
   font-weight: 600;
   margin-bottom: 3rem;
 }
 
 .expenses {
-  background-color: #191919;
+  background-color: #242424;
+  border: 0.5px solid rgba(255, 255, 255, 0.1);
   padding: 1.5rem;
 }
