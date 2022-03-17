@@ -11,7 +11,7 @@
 }
 
 .expense-item:not(:last-child) {
-  margin-bottom: 1.25rem;
+  margin-bottom: 1.5rem;
 }
 
 .expense-item__description {
