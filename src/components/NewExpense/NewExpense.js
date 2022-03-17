@@ -1,12 +1,13 @@
 import React from "react";
 import "./NewExpense.css";
 import ExpenseForm from "./ExpenseForm";
+import Card from "../UI/Card";
 
 const NewExpense = () => {
   return (
-    <div className="new-expense">
+    <Card className="new-expense card-lg">
       <ExpenseForm />
-    </div>
+    </Card>
   );
 };
 

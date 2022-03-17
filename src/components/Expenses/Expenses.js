@@ -7,7 +7,7 @@ import "./Expenses.css";
 const Expenses = ({ expenses }) => {
   return (
     <div>
-      <Card className="expenses">
+      <Card className="expenses card-lg">
         {expenses.map((expense) => (
           <ExpenseItem
             key={expense.id}
