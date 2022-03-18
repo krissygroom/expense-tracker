@@ -1,4 +1,7 @@
 # expense-tracker
-React expense tracking app
+
+*** In Progress Project *** 
+
+React expense tracking app - React The Complete Guide Udemy Course Project
 
 https://krissygroom.github.io/expense-tracker/
